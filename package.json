@@ -1,0 +1,15 @@
+{
+  "name": "dns-whois-lookup-crawler",
+  "version": "1.0.0",
+  "description": "Recursively lookup DNS and whois records for a hostname",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Stig Jacobsen <tsj@lunarway.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "spf-parse": "1.0.4",
+    "whois-json": "2.0.4"
+  }
+}
